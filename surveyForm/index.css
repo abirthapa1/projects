@@ -1,0 +1,55 @@
+body{
+    font-family: sans-serif;
+    background-image: url('https://eccles.utah.edu/wp-content/uploads/2015/04/Study-Group-web.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+label{
+    display: block;
+    margin: 10px 0px 5px 0;
+}
+#name, #email, #number, #dropdown, #submit, textarea{
+    width: 550px;
+    height: 32px;
+}
+#main{
+    margin: 0 auto;
+    max-width: 650px;
+}
+.input{
+    margin: 20px 50px;
+}
+#heading{
+    text-align: center;
+}
+#survey-form{
+    border-radius: 10px;
+    font-size: 20px;
+    border: 1px solid #ff0990;
+    background-color: #ff0990;
+    opacity: 0.5;
+    margin: 0;
+}
+#submit{
+    background-color: green;
+    border: green;
+}
+#submit:hover{
+    cursor: pointer;
+}
+
+/*media queries*/
+@media only screen and (max-width: 812px) {
+
+    #survey-form{
+        border: 0px dotted blue;
+    }
+    #name, #email, #number, #dropdown, #submit, textarea{
+        max-width: 100%;
+        height: 30px;
+    }
+    #main{
+        margin: 5px 0;
+    }
+}
